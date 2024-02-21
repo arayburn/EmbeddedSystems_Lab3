@@ -1,0 +1,25 @@
+--cpu Cortex-M0
+"embeddedsystems_lab03\startup_stm32f072xb.o"
+"embeddedsystems_lab03\main.o"
+"embeddedsystems_lab03\stm32f0xx_it.o"
+"embeddedsystems_lab03\stm32f0xx_hal_msp.o"
+"embeddedsystems_lab03\stm32f0xx_hal_tim.o"
+"embeddedsystems_lab03\stm32f0xx_hal_tim_ex.o"
+"embeddedsystems_lab03\stm32f0xx_hal_rcc.o"
+"embeddedsystems_lab03\stm32f0xx_hal_rcc_ex.o"
+"embeddedsystems_lab03\stm32f0xx_hal.o"
+"embeddedsystems_lab03\stm32f0xx_hal_i2c.o"
+"embeddedsystems_lab03\stm32f0xx_hal_i2c_ex.o"
+"embeddedsystems_lab03\stm32f0xx_hal_gpio.o"
+"embeddedsystems_lab03\stm32f0xx_hal_dma.o"
+"embeddedsystems_lab03\stm32f0xx_hal_cortex.o"
+"embeddedsystems_lab03\stm32f0xx_hal_pwr.o"
+"embeddedsystems_lab03\stm32f0xx_hal_pwr_ex.o"
+"embeddedsystems_lab03\stm32f0xx_hal_flash.o"
+"embeddedsystems_lab03\stm32f0xx_hal_flash_ex.o"
+"embeddedsystems_lab03\stm32f0xx_hal_exti.o"
+"embeddedsystems_lab03\system_stm32f0xx.o"
+--strict --scatter "EmbeddedSystems_Lab03\EmbeddedSystems_Lab03.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "EmbeddedSystems_Lab03.map" -o EmbeddedSystems_Lab03\EmbeddedSystems_Lab03.axf
